@@ -10,6 +10,8 @@
 
 ### https://www.w3.org/2018/credentials/v1
 
+The following links have been created for the W3C Verifiable Credentials v1 context.
+
 https://cloudflare-ipfs.com/ipfs/bafybeiczgekrajpsnupayulad7nxepm6xtxhu3hwh4yp4h4zgnj3sefkpy
 
 https://cloudflare-ipfs.com/ipns/v1.credentials.ns.transmute.org
