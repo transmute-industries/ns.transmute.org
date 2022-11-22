@@ -8,14 +8,23 @@
 
 ## Hosted Names
 
+
+### https://www.w3.org/2018/credentials/v1
+
+https://cloudflare-ipfs.com/ipfs/bafybeiczgekrajpsnupayulad7nxepm6xtxhu3hwh4yp4h4zgnj3sefkpy
+
+https://cloudflare-ipfs.com/ipns/v1.credentials.ns.transmute.org
+
+
+With `@vocab`:
+
+https://cloudflare-ipfs.com/ipfs/bafybeidouoankzw5dzarqnhfy2ykbdh35nxlz3bczuemhavxr5kryddmjq
+
+https://cloudflare-ipfs.com/ipns/vocab.v1.credentials.ns.transmute.org
+
+
 ```
-./upload.sh .env contexts/credentials-v1.json
-
-ipfs cid base32 QmULpQLoHzKFErn8go1hUqNcfEBFh8umiX1D6ohSE58WfP
-
-# https://cloudflare-ipfs.com/ipfs/bafybeiczgekrajpsnupayulad7nxepm6xtxhu3hwh4yp4h4zgnj3sefkpy
-# After DNS Link:
-# https://cloudflare-ipfs.com/ipns/v1.credentials.ns.transmute.org
+./upload.sh .env contexts/credentials-v1-vocab.json
 ```
 
 ## Usage
@@ -38,6 +47,7 @@ INFURA_IPFS_PROJECT_SECRET=
 
 ```shell
 ./upload.sh .env image.png
+ipfs cid base32 QmULpQLoHzKFErn8go1hUqNcfEBFh8umiX1D6ohSE58WfP
 ```
 
 
